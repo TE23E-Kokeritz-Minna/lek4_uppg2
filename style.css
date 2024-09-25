@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+.rubrik{
+    border: 5px black solid;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color: #ccf0ff;
+    background-color: #363852;
+    font-family: Sofadi One, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
