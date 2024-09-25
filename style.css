@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 
-.rubrik{
-    border: 5px black solid;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-}
-
-h1{
+h1 {
     color: #ccf0ff;
     background-color: #363852;
     font-family: Sofadi One, monospace;
@@ -16,4 +9,42 @@ h1{
     margin-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+ul{
+    list-style: square;
+    margin-right: 40%;
+}
+
+body{
+    background-image: url(./img/winter-snow.jpg);
+}
+
+.rubrik {
+    border: 6px black solid;
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Vip_Datum {
+    border: 3px yellow solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #363852;
+    margin-left: 28%;
+    margin-right: 28%;
+    font-size: 1.1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Julafton {
+    color: #ff2b2b;
+    background-color: white;
+}
+
+#Nyårsafton{
+    background-color: #efb710;
 }
