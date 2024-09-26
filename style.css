@@ -11,13 +11,15 @@ h1 {
     padding-right: 10px;
 }
 
-ul{
+ul {
     list-style: square;
     margin-right: 40%;
 }
 
-body{
+body {
     background-image: url(./img/winter-snow.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .rubrik {
@@ -36,15 +38,63 @@ body{
     background-color: #363852;
     margin-left: 28%;
     margin-right: 28%;
+    margin-bottom: 40px;
     font-size: 1.1em;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 #Julafton {
     color: #ff2b2b;
     background-color: white;
 }
 
-#Nyårsafton{
+#Nyårsafton {
     background-color: #efb710;
+}
+
+.altM {
+    background-color: #c1d0e5;
+}
+
+#Kalender{
+    border: black 5px solid;
+    margin-left: 17% ;
+    margin-right: 17%;
+}
+
+
+th,td,table {
+    border: 2px #ff2b2b solid;
+    border-collapse: collapse;
+    background-color: antiquewhite;
+    margin: 2px;
+    margin-left: auto;    
+    margin-right: auto;     
+    width: 800px;
+    height: 50px;
+}
+
+td {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.red_t{
+    color: #ff2b2b;
+}
+
+th {
+    height: 30px;
+    color: black;
+    background-color: #95a3b1;
+}
+
+.Bild{
+    border: 6px black solid ;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: auto;
 }
